@@ -16,6 +16,7 @@
     img {
         position: relative;
         height: 150px;
+        width: auto;
     }
     .description {
         font-style: italic;
@@ -58,37 +59,57 @@
         margin: 0;
         padding: 8px;
     }
+    li a:active {
+        background-color: red;
+    }
     footer {
+        left: 0;
         bottom: 0;
         position: fixed;
         width: 100%;
         height: auto;
-    }
-    line1left {
-        left: 0;
-    }
-    line1right {
-        right: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: lightgreen;
     }
 </style>
 <body>
     <div class="banner">
         <center>
-        <img src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/banner.png" />
+        <img src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/banner.gif" />
         </center>
     </div>
     <marquee direction="left" class="description">
         Hello, Welcome to CvaTricks!
     </marquee>
     <ul>
-            <li><a href="./">Home</a></li>
-            <li><a href="./">Telegram Bots</a></li>
-            <li><a href="./">Website Tools</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/telegrambots.html">Telegram Bots</a></li>
+            <li><a href="#">Website Tools</a>
+            </li>
     </ul>
 </body>
 <footer>
-<hr>
-<line1left><b>Copyright :-</b> CvaTricks</line1left><line1right><b>Follow us :-</b></line1right><br>
-<line2left><b>Disclaimer :-</b> All Rights Reserved to their respective owners.</line2left><line2right><a href="https://youtube.com/@cvatricks">Youtube</a></line2right>
+<div style="text-align:left;width:50%;position:relative;">
+    <b>
+        Copyright :-
+    </b>
+    cvatricks@gmail.com | Since 2016
+    <br><br>
+    <b>
+        Disclaimer :-
+    </b>
+    All Rights Reserved to their respective owners.
+</div>
+<div style="width:50%">
+    <b>
+        Follow Us :-
+    </b>
+    <abbr title="Subscibe my Youtube Channel"><a href="https://youtube.com/@cvatricks">Youtube</a></abbr>
+
+    <abbr title="Join my Telegram Channel"><a href="https://telegram.dog/Super_Botz">Telegram</a></abbr>
+    <br>
+    <p><strong>Location :-</strong><address><p> Tamil Nadu, India</p></address></p>
+</div>
 </footer>
 </html>
