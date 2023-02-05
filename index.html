@@ -8,20 +8,24 @@
     <title>CvaTricks | Super_Botz</title>
 </head>
 <style>
+    div .btn {
+        position: fixed;
+    }
     .banner {
         position: relative;
         width: auto;
-        height: auto;
+        height: 100%;
     }
-    img {
+    .banner img {
         position: relative;
         height: 150px;
+        width: auto;
     }
     .description {
         font-style: italic;
         font-size: x-large;
     }
-    ul {
+    body ul {
         list-style-type: none;
         margin: 0;
         height: 30px;
@@ -30,7 +34,7 @@
         border-radius: 25px;
         border: 1px solid green;
     }
-    li {
+    body ul li {
         display: inline-block;
         text-align: center;
         font-size: large;
@@ -38,54 +42,186 @@
         height: 26px;
         margin: 1px;
         padding: 0;
+        width: auto;
         border-radius: 25px;
         border: 1px solid green;
     }
-    li a {
+    body ul li a {
         list-style-type: none;
+        width: auto;
         height: 20px;
         text-decoration: none;
         padding: 8px;
     }
-    li a:hover {
+    body ul li a:hover {
         background-color: green;
         color: white;
         font-size: large;
         border-radius: 25px;
+        width: auto;
         margin: 0;
         padding: 8px;
     }
-    li a:active {
+    body ul li a:active {
         background-color: red;
     }
     footer {
         left: 0;
         bottom: 0;
-        position: fixed;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: space-between;
         background-color: lightgreen;
     }
+    .quote {
+        color: darkblue;
+        position: relative;
+        bottom: 0;
+    }
 </style>
 <body>
+    <div class="btn" style="position:absolute;right: 10px;">
+        <button type="submit" href="#" value="login">Login (Coming soon)</button>
+    </div>
     <div class="banner">
         <center>
         <img src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/banner.gif" />
         </center>
     </div>
     <marquee direction="left" class="description">
-        Hello, Welcome to CvaTricks!
+        Hello, Welcome to <bdo>CvaTricks!</bdo>
     </marquee>
     <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="/telegrambots.html">Telegram Bots</a></li>
+            <li><a href="#">Telegram Bots</a></li>
             <li><a href="#">Website Tools</a>
             </li>
     </ul>
+    <p><dfn>CvaTricks is a Technology development platform. You can join & follow with us on our social media platforms which are Youtube, Telegram, Blog, Website, Github, Twitter, Instagram, etc</dfn></p>
+    <h1>Telegram :</h1>
+    <p> Telegram is a <em>messenger</em> like whatsapp. which has more <kbd>limitless</kbd> features than other messengers.</p>
+    <fieldset>
+    <legend><b>Telegram Channel :</b> <code>@Super_Botz</code>> | <b>Support Group :</b><code> @Super_Botz_support</code></legend>
+    <table>
+        <caption style="background-color: rgb(2, 247, 255);">Our Telegram Bots List</caption>
+        <colgroup>
+            <col style="background-color: rgb(166, 249, 252);">
+            <col span="2" style="background-color: rgb(213, 252, 255);">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Bot Name</th>
+                <th>Bot Description</th>
+                <th>Bot Link</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>URL Uploader</td>
+                <td>This Bot can upload any video or file from Direct link or streaming link.</td>
+                <td><code>https://telegram.dog/URLUploadSBBot</code></td>
+            </tr>
+        </tbody>
+        </thead>
+        <tfoot>
+            <tr><td colspan="3">
+            Powered by CvaTricks &copy; 2023 | Super_Botz
+            </td></tr>
+        </tfoot>
+            
+
+    </table>
+    </fieldset>
+    <h2>
+        Rate our Services :
+    </h2>
+    <fieldset>
+        <form action="/rating.php" method="post">
+            <h3><ins>Fill your details :</ins></h3>
+            Name :<input type="text" name="username" value="" placeholder="type your name here"><br><br>
+            Gender :<input type="radio" name="gender"><label for="male"> Male</label><input type="radio" name="gender"> Female<br><br>
+            Date of Birth :<input type="date" name="dateofbirth"><br><br>
+            Your Email :<input type="email" name="email" value="" placeholder="type your email here"><br><br>
+            <hr>Give your Rate out of five Star :<br>
+            <input type="radio" id="5-star" value="5-S" name="rating"><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><br>
+            <input type="radio" id="4-star" value="4-S" name="rating"><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><br>
+            <input type="radio" id="3-star" value="3-S" name="rating"><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><br>
+            <input type="radio" id="2-star" value="2-S" name="rating"><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><br>
+            <input type="radio" id="1-star" value="1-S" name="rating"><img style="height:30px;width:60px;top:5px;position: relative;" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/star.png" /><br>
+        </form>
+        <br><button action="#">Submit</button>
+    </fieldset>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sJfRHpg8E38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen><param name="autoplay" value="true"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VftXbhlb8R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <i>
+        <dl><blockquote class="quote" cite="https://en.wikiquote.org/wiki/A._P._J._Abdul_Kalam#:~:text=If%20a%20country%20is%20to,the%20mother%20and%20the%20teacher.">
+            <u>
+                <b><dt>
+                    Quote:-
+                </b></dt>
+            </u>
+            <br><dd>
+            If a country is to be corruption free and become a nation of beautiful minds, I strongly feel there are three key societal members who can make a difference. They are the father, the mother and the teacher.
+            </dd><dd style="text-align: right;">
+                - <b>A</b>vul <b>P</b>akir <b>J</b>ainulabdeen Abdul Kalam</dd>
+            </p>
+        </dl></blockquote>
+    </i>
 </body>
+<menu>This text present inside menu tag</menu><br>
+<noscript>This text present inside noscript tag</noscript>
+<object data="https://www.w3schools.com/tags/movie.mp4" width="400" height="300"><param name="autoplay" value="true"></object>
+<h2>Available Bots :-</h2>
+<select>
+    <optgroup label="Telegram Bots">
+        <option>
+            URL Uploader
+        </option>
+        <option>
+            URL Shortner
+        </option>
+        <option>
+            File Converter
+        </option>
+        <option>
+            Know who
+        </option>
+    </optgroup>
+    <optgroup label="Website Tools">
+        <option>TamilYogi Extractor</option>
+    </optgroup>
+</select>
+<p>This
+    is 
+    not a paragraph
+    text kept inside
+    <q>p</q> tag
+</p>
+<pre>This
+    is not a paragraph
+    text kept inside 
+    <q>pre</q> tag
+</pre>
+<p>This webpage content not for <s>production</s>, Only Testing the html tags for education purpose.</p>
+<p>If the browser display an error message such as "<samp>HTTP 404 - File not found</samp>" you may simply have typed the incorrect url address or may be requested files not available in the server right now.</p>
+<script>
+    document.write("This text present inside script tag");
+</script>
+<br>
+<small>This<small> sentence<small> placed<small> inside<small> so <small>many<small> small<small> tags</small></small></small></small></small></small></small></small>
+<p>Water chemical formula : 2H + O = H<sub>2</sub>0</p>
+<p>World famous formula : E = mc<sup>2</sup></p>
+<textarea>type your feedback here...</textarea>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<h2>Contact us :-</h2>
+<span><ol>
+    <li>Email : cvatricks@gmail.com</li>
+    <li>Telegram Group : @Super_Botz_Support</li>
+</ol>
+</span>
 <footer>
-<div style="text-align:left;width:50%;position:relative;">
+<div style="text-align:left;width:50%;position:relative;top:10px;left:10px">
     <b>
         Copyright :-
     </b>
@@ -94,15 +230,18 @@
     <b>
         Disclaimer :-
     </b>
-    All Rights Reserved to their respective owners.
+    All Rights Reserved to their respective owners., <br>We are not <del>Responsible</del> for any kind of losses due to using any of our services.
 </div>
 <div style="width:50%">
     <b>
         Follow Us :-
     </b>
-    <abbr title="Subscibe my Youtube Channel"><a href="https://youtube.com/@cvatricks">Youtube</a></abbr>
-
-    <abbr title="Join my Telegram Channel"><a href="https://telegram.dog/Super_Botz">Telegram</a></abbr>
+    <img style="position:relative;width:250px;height:30px;top:10px;" usemap="#socialbtn" src="https://raw.githubusercontent.com/cvatricks/CvaTricks.github.io/main/images/socialbtn.png">
+    <map name="socialbtn">
+        <abbr title="Subscribe my Youtube Channel"><area shape="rect" coords="0,0,80,30" href="https://youtube.com/@cvatricks"></abbr>
+        <abbr title="Join my Telegram Channel"><area shape="rect" coords="90,0,160,30" href="https://telegram.dog/super_botz"></abbr>
+        <abbr title="Like my Facebook Page"><area shape="rect" coords="170,0,245,30" href="https://facebook.com/cvatricks"></abbr>
+    </map>
     <br>
     <p><strong>Location :-</strong><address><p> Tamil Nadu, India</p></address></p>
 </div>
